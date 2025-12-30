@@ -132,12 +132,17 @@ The frontend and backend were developed collaboratively in the **same repository
 ---
 
 ## 🧩📂 Project Folder Structure
-*📁 Root
-*B2B/
-├── backend/
-├── frontend/
 
-📁 Backend Structure
+```text
+📁 Root
+└── B2B/
+    ├── backend/
+    └── frontend/
+```
+
+### 📁 Backend Structure
+
+```text
 backend/
 ├── config/          # DB & environment configuration
 ├── controllers/     # Request handling logic
@@ -147,9 +152,12 @@ backend/
 ├── utils/           # Helper utilities
 ├── server.js        # Backend entry point
 ├── .env             # Environment variables
-├── package.json
+└── package.json
+```
 
-📁 Frontend Structure
+### 📁 Frontend Structure
+
+```text
 frontend/
 ├── src/
 │   ├── components/
@@ -180,7 +188,7 @@ frontend/
 │
 ├── index.html
 ├── .env
-├── package.json
+└── package.json
 
 ---
 
