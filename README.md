@@ -1,16 +1,3 @@
-Perfect 👍
-Below is a **FULL-STACK GitHub README.md**, rewritten professionally to reflect that:
-
-* ✅ This is a **FULL-STACK PROJECT**
-* ✅ You and your teammate worked on the **same repository**
-* ✅ Backend uses **Node.js, Express, MongoDB Atlas, Cloudinary**
-* ✅ Frontend + Backend responsibilities are clearly described
-* ✅ Suitable for **internship submission, manager review, and GitHub portfolio**
-
-You can **directly copy–paste** this into `README.md`.
-
----
-
 # 🛒 Multi-Vendor Price Comparison Platform
 
 ### *Search • Compare • Enquire • Connect with Sellers*
