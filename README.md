@@ -131,26 +131,56 @@ The frontend and backend were developed collaboratively in the **same repository
 
 ---
 
-## 🧩 Folder Structure (High Level)
+## 🧩📂 Project Folder Structure
+*📁 Root
+*B2B/
+├── backend/
+├── frontend/
 
-```text
-project-root/
-│── client/        # React frontend
-│── server/        # Node + Express backend
-│
-│── client/src/
+📁 Backend Structure
+backend/
+├── config/          # DB & environment configuration
+├── controllers/     # Request handling logic
+├── middlewares/     # Auth & custom middleware
+├── models/          # Mongoose schemas
+├── routes/          # API routes
+├── utils/           # Helper utilities
+├── server.js        # Backend entry point
+├── .env             # Environment variables
+├── package.json
+
+📁 Frontend Structure
+frontend/
+├── src/
 │   ├── components/
+│   │   ├── EnquiryModal.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── PriceTable.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── HeroCarousel.jsx
+│   │
+│   ├── context/
+│   ├── mocks/               # Static data for UI demo
 │   ├── pages/
-│   ├── services/
+│   │   ├── Home.jsx
+│   │   ├── FeaturedProducts.jsx
+│   │   ├── ProductCompare.jsx
+│   │   ├── SearchResult.jsx
+│   │   ├── SellerPage.jsx
+│   │   ├── SellerDashboard.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── Profile.jsx
+│   │
+│   ├── services/            # API calls
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── style.css
 │
-│── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│
-│── README.md
-```
+├── index.html
+├── .env
+├── package.json
 
 ---
 
@@ -205,15 +235,16 @@ This project demonstrates:
 
 ## 📬 Contributors
 
-* **Frontend Developer**: *(Your Name / GitHub)*
-* **Backend Developer**: *(Teammate Name / GitHub)*
+* **Backend  & DB Developer**: *(Ashutosh Ranjan )*
+* **Backend  & DB Developer**: *(Shivam Mandal )*
+* * **Frontend Developer**: *(Rupendra Kumar )*
 
 ---
 
 ## 📄 License
 
-This project is open for **learning, internship evaluation, and collaboration**.
-Feel free to fork, explore, and build upon it.
+This project is temperory private for **learning, internship evaluation, and collaboration**.
+After making it public Feel free to fork, explore, and build upon it.
 
 ---
 
